@@ -1,4 +1,31 @@
+@font-face {
+  font-family: Ldfcomicsans;
+  src: url(Ldfcomicsans.ttf);
+}
+
 .title {
 text-align: center;
-font-family: Comic Relief;
+font-family: Ldfcomicsans;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Ldfcomicsans;
+  font-size: 20px;
+}
+
+.revparagraph {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Ldfcomicsans;
+  font-size: 20px;
+}
+
+body {
+background: rgba(0, 255, 255, 0.09);
 }
